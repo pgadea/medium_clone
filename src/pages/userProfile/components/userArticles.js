@@ -1,7 +1,7 @@
 import React, {useEffect, Fragment} from 'react'
 import {stringify} from 'query-string'
 
-import {getPaginator, limit} from 'util'
+import {getPaginator, limit} from 'utils'
 import useFetch from 'hooks/useFetch'
 import Loading from 'components/loading'
 import ErrorMessage from 'components/errorMessage'
